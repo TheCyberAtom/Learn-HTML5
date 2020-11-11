@@ -43,9 +43,9 @@ An HTML element is defined by a start tag, some content, and an end tag:
 * Attributes are always specified in the start tag
 * Attributes usually come in name/value pairs like: name="value"            
 ---
+<br>
 
-
-##HTML Headings
+## HTML Headings
 
 HTML headings are defined with the `<h1>` to `<h6>` tags.   
 <ul>  
@@ -61,7 +61,7 @@ Heading 1 is  `<h1>` and so on ... Heading 6 is `<h6>`.
 >Syntax : `<h1>. . . . .</h1>`  
 
 
-##HTML Paragraphs
+## HTML Paragraphs
 
 The HTML `<p>` element defines a paragraph.
 
@@ -74,12 +74,12 @@ The HTML `<br>` element defines a line break.
 Use `<br>` if you want a line break (a new line) without starting a new paragraph
 
 
-##HTML Styles
+## HTML Styles
 The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
 >Syntax is : `<tagname style="property:value;">`
 
 
-##HTML Text Formatting
+## HTML Text Formatting
 HTML contains several elements for defining text with a special meaning.
 
 ***HTML Formatting Elements***
@@ -107,7 +107,7 @@ Formatting elements were designed to display special types of text:
 S<sub> Subscript text </sub>
 S<sup> Superscript text </sup>
 
-##HTML Quotation and Citation Elements
+## HTML Quotation and Citation Elements
 Some of HTML Quotation and Citation Elements are `<blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo> .`
 
 * The HTML `<blockquote>` element defines a section that is quoted from another source.
@@ -117,12 +117,12 @@ Some of HTML Quotation and Citation Elements are `<blockquote>,<q>, <abbr>, <add
 * The HTML `<cite>` tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
 * The HTML `<bdo>` tag is used to override the current text direction *(BDO stands for Bi-Directional Override)*.
 
-##HTML Comments
+## HTML Comments
 HTML comments are not displayed in the browser, but they can help document your HTML source code.
 
 >Syntax :`<!-- Write your comments here -->`
 
-##HTML Styles - CSS
+## HTML Styles - CSS
 Cascading Style Sheets (CSS) is used to format the layout of a webpage.
 
 With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
@@ -152,7 +152,7 @@ An external style sheet is used to define the style for many HTML pages.
 To use an external style sheet, add a link to it in the `<head>` section of each HTML page:
 >Syntax :```<link rel="stylesheet" href="styles.css">```
 
-##HTML Links
+## HTML Links
 The HTML `<a>` tag defines a hyperlink.
 >Syntax :`<a href="url">link text</a>`
 
@@ -181,7 +181,7 @@ To use an HTML button as a link, you have to add some JavaScript code.
 >Syntax : `<button onclick="document.location='default.asp'">HTML Tutorial</button>`
 
 
-##HTML Images
+## HTML Images
 The HTML `<img>` tag is used to embed an image in a web page.
 
 Images are not technically inserted into a web page; images are linked to web pages.
@@ -207,7 +207,7 @@ The HTML <map> tag defines an image map. An image map is an image with clickable
 - poly - defines a polygonal region
 - default - defines the entire region
 
-##HTML Tables
+## HTML Tables
 HTML tables allow web developers to arrange data into rows and columns.
 
 The `<table>` tag defines an HTML table.
@@ -264,7 +264,7 @@ The Above Code will output is shown below :
     <tbody>	        Groups the body content in a table
     <tfoot>	        Groups the footer content in a table
 
-##HTML Lists
+## HTML Lists
 HTML lists allow web developers to group a set of related items in lists.
 
 **Unordered HTML List**
@@ -297,7 +297,7 @@ The above code will produce following output :
 <li>Milk</li>
 </ol>
 
-##HTML Block and Inline Elements
+## HTML Block and Inline Elements
 Every HTML element has a default display value, depending on what type of element it is.
 
 There are two display values: block and inline.
@@ -326,14 +326,14 @@ The inline elements in HTML:
     `<q> <samp> <script> <select> <small> <span> <strong> <sub> <sup>` 
     `<textarea> <time> <tt> <var>`
     
-##HTML Iframes
+## HTML Iframes
 An HTML iframe is used to display a web page within a web page.
 The HTML `<iframe>` tag specifies an inline frame.
 An inline frame is used to embed another document within the current HTML document.
 
 >Syntax : `<iframe src="url" title="description">`
 
-##HTML File Paths
+## HTML File Paths
 A file path describes the location of a file in a web site's folder structure.
 
 **Absolute File Paths**
@@ -346,7 +346,7 @@ A relative file path points to a file relative to the current page.
 
 >*It is best practice to use relative file paths (if possible).*
 
-#HTML Head
+## HTML Head
 Websites often display content in multiple columns (like a magazine or a newspaper).
 
 **HTML Layout Elements**
@@ -359,7 +359,7 @@ Websites often display content in multiple columns (like a magazine or a newspap
 * `<details>` - Defines additional details that the user can open and close on demand
 * `<summary>` - Defines a heading for the `<details>` element
 
-##HTML Computer Code Elements
+## HTML Computer Code Elements
 HTML contains several elements for defining user input and computer code.
 
     Syntax :
@@ -375,7 +375,7 @@ The HTML `<kbd>` element is used to define keyboard input. The content inside is
 **`<samp>` For Program Output**
 The HTML `<samp>` element is used to define sample output from a computer program. The content inside is displayed in the browser's default monospace font.
 
-##HTML Entities
+## HTML Entities
 Some characters are reserved in HTML.
 
 If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
@@ -399,7 +399,7 @@ Character entities are used to display reserved characters in HTML.
 |®	| registered trademark	| `&reg;`	    | `&#174;`      |
 
 
-##HTML Symbols
+## HTML Symbols
 Symbols that are not present on your keyboard can also be added by using entities.
 
 **Some Mathematical Symbols :**
@@ -427,7 +427,7 @@ Symbols that are not present on your keyboard can also be added by using entitie
 | Ζ	    | `&#918;`	| `&Zeta;`	 | GREEK CAPITAL LETTER ZETA    |
 
 
-##Using Emojis in HTML
+## Using Emojis in HTML
 Emojis are characters from the UTF-8 character set: 😄 😍
 
 **What are Emojis?**
@@ -461,7 +461,7 @@ To display an HTML page correctly, a web browser must know which character set t
 
 ---
 
-##HTML Forms
+## HTML Forms
 An HTML form is used to collect user input. The user input is most often sent to a server for processing.
 
 **The `<form>` Element**
@@ -545,7 +545,7 @@ Here is a list of some common input restrictions:
 | value	    | Specifies the default value for an input field
 
 
-##HTML Graphics
+## HTML Graphics
 
 **HTML Canva Graphics**
 The HTML `<canvas>` element is used to draw graphics on a web page.
@@ -581,7 +581,7 @@ The above code  will create :
 
 >For Full SVG tutorial : [Click Here👈](https://www.w3schools.com/graphics/svg_intro.asp)
 
-##HTML Multimedia
+## HTML Multimedia
 Multimedia on the web is sound, music, videos, movies, and animations.
 Multimedia comes in many different formats. It can be almost anything you can hear or see, like images, music, sound, videos, records, films, animations, and more.
 Web pages often contain multimedia elements of different types and formats.
